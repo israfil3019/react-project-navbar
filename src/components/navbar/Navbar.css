@@ -1,0 +1,56 @@
+.navbar {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 1rem;
+  background-color: beige;
+}
+.right-bar a {
+  font-size: 1.5rem;
+  padding: 1rem;
+  text-decoration: none;
+  color: rgb(87, 85, 85);
+}
+.right-bar a:hover{
+    cursor: pointer;
+    color: rgb(37, 37, 37);
+}
+span {
+  color: red;
+}
+.icon{ 
+  display: none;
+}
+@media screen and (max-width: 800px) {
+    .right-bar{
+        display: none;
+    }
+    .icon{
+        display: inline;
+        color: rgb(87, 85, 85);
+        font-size: 2rem;
+    }
+    .icon:hover{
+        cursor: pointer;
+        color: rgb(37, 37, 37);
+    }
+    .right-bar-second{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: beige;
+    }
+    .right-bar-second a{
+        font-size: 1.5rem;
+        padding: 1rem;
+        text-decoration: none;
+        color: rgb(87, 85, 85);
+    }
+    .right-bar-second a:hover{
+        cursor: pointer;
+        color: rgb(37, 37, 37);
+    }
+
+}
